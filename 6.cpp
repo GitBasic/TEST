@@ -20,8 +20,7 @@ int f(int s, int e, int d) {
 	return f(s, s + e >> 1, d * 2) + t[d * 2 + 1].end() - p;
 }
 int main() {
-	ios_base::sync_with_stdio(0);
-	cin.tie(0);
+	cin.tie(0)->sync_with_stdio(0);
 	cin >> n >> m;
 	for (int i = 0; i < n; i++)
 		cin >> a[i] >> b[i];
