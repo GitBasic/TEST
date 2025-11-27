@@ -45,8 +45,7 @@ void upd(ll l, ll r, ll k, ll s = 2, ll e = o.size(), ll d = 1) {
 	upd(l, r, k, s, s + e >> 1, d * 2), upd(l, r, k, s + e + 2 >> 1, e, d * 2 + 1), t[d] = min(t[d * 2], t[d * 2 + 1]);
 }
 int main() {
-	ios_base::sync_with_stdio(0);
-	cin.tie(0);
+	cin.tie(0)->sync_with_stdio(0);
 	cin >> n >> q;
 	for (int i = 1; i < n; e[u].P({v, w}), e[v].P({u, w}), i++)
 		cin >> u >> v >> w;
