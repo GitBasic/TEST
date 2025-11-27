@@ -5,8 +5,7 @@ using ll = long long;
 ll n, s, x[300001], p[300001], a, b;
 priority_queue<pair<ll, ll>> q[300001];
 int main() {
-	ios_base::sync_with_stdio(0);
-	cin.tie(0);
+	cin.tie(0)->sync_with_stdio(0);
 	cin >> n >> s;
 	for (int i = 1; i <= n; i++)
 		cin >> x[i] >> p[i];
