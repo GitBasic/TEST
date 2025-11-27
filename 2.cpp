@@ -21,8 +21,7 @@ ll f(ll x, ll s = 0, ll e = n, ll d = 1) {
 	return s < e ? s + e >> 1 < x ? f(x, s + e + 2 >> 1, e, d * 2 + 1) : f(x, s, s + e >> 1, d * 2) : g[x];
 }
 int main() {
-	ios_base::sync_with_stdio(0);
-	cin.tie(0);
+	cin.tie(0)->sync_with_stdio(0);
 	cin >> n >> m;
 	for (int i = 1; i <= n; i++) {
 		cin >> a[i] >> s[i] >> p[i];
