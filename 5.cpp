@@ -8,8 +8,7 @@ ll n, m, s, e, t, r = INT_MAX, c[3001][3001], dp[3001][3001], p[3001];
 deque<pair<ll, ll>> d[3001];
 pair<ll, ll> b[3], T;
 int main() {
-	ios_base::sync_with_stdio(0);
-	cin.tie(0);
+	cin.tie(0)->sync_with_stdio(0);
 	cin >> n >> m >> s >> e >> t;
 	for (int i = 1; i <= n; i++)
 		for (int j = 1; j <= m; c[i][j] += c[i][j - 1], j++)
