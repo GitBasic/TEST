@@ -25,8 +25,7 @@ P f(int r, int s, int e, int d) {
 	return M(f(r, s, s + e >> 1, d * 2), f(r, s + e + 2 >> 1, e, d * 2 + 1));
 }
 int main() {
-	ios_base::sync_with_stdio(0);
-	cin.tie(0);
+	cin.tie(0)->sync_with_stdio(0);
 	cin >> n >> q;
 	for (; i <= n; c[a[i++]]++)
 		cin >> a[i];
